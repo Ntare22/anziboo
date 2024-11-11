@@ -10,10 +10,10 @@ export default function NavBar() {
 
   return (
     <nav className="sticky top-0 z-50">
-      <div className="flex justify-between bg-white drop-shadow-lg items-center px-4 py-3 md:px-16 md:py-6">
-        <Link href="" className="font-extrabold text-lg md:text-2xl">Anziboo</Link>
+      <div className="flex justify-between bg-white drop-shadow-lg items-center px-4 py-3 lg:px-16 lg:py-6">
+        <Link href="" className="font-extrabold text-lg lg:text-2xl">Anziboo</Link>
         {/* Desktop Menu */}
-        <div className="nav-items hidden w-1/3 md:block md:flex justify-between font-bold">
+        <div className="nav-items hidden w-1/3 lg:block lg:flex justify-between font-bold">
           <div>
             <Link href="">Home</Link>
           </div>
@@ -36,7 +36,7 @@ export default function NavBar() {
 
         {/* Hamburger Button */}
         <button
-          className="text-white text-2xl md:hidden"
+          className="text-white text-2xl lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           {/* Hamburger Icon */}
@@ -49,7 +49,7 @@ export default function NavBar() {
       </div>
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="flex flex-col space-y-4 font-bold text-black bg-white py-3 text-center absolute w-screen md:hidden">
+        <div className="flex flex-col space-y-4 font-bold text-black bg-white py-3 text-center absolute w-screen lg:hidden">
           <Link href="#home" onClick={() => setIsOpen(false)}>Home</Link>
           <Link href="#whatwedo" onClick={() => setIsOpen(false)}>What we do</Link>
           <Link href="#products" onClick={() => setIsOpen(false)}>Products</Link>
