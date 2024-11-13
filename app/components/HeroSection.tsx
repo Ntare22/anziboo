@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="absolute z-40 h-full flex items-center lg:relative lg:w-2/3 lg:px-48 lg:py-32">
           <div className="px-5 lg:h-full lg:overflow">
             <Image alt="anziboo logo" src={AnzibooLogo} />
-            <p>At Anziboo, we are pioneering the future of sustainable agriculture and biotechnology by leveraging the untapped potential of bamboo. </p>
+            <p>At Anziboo, we are pioneering the future of sustainable agriculture and biotechnology by leveraging the untapped potential of bamboo.</p>
             <Link href="#contact">
               <button className="mt-3 bg-[#F9BF4B] text-white rounded-full font-bold px-5 py-3">Contact Now</button>
             </Link>

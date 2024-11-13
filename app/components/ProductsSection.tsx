@@ -35,14 +35,14 @@ export default function ProductsSection() {
             <Image alt="pcbs" src={BioCoating} height="60" />
           </div>
           <h1 className="text-center font-extrabold text-lg py-2">Biocoating</h1>
-          <p className="text-center">Anziboo's biocoating extends the shelf life of fruits and vegetables by creating a natural, biodegradable barrier that preserves freshness and reduces spoilage.</p>
+          <p className="text-center">Anziboo&apos;s biocoating extends the shelf life of fruits and vegetables by creating a natural, biodegradable barrier that preserves freshness and reduces spoilage.</p>
         </div>
         <div className="bg-white p-5 w-2/3  grid justify-items-center rounded-xl drop-shadow-lg lg:w-full">
           <div className="bg-[#DEFFEE] p-1 rounded-lg">
             <Image alt="pcbs" src={DrugPatches} height="60"  />
           </div>
           <h1 className="text-center font-extrabold text-lg py-2">Drug Delivery Batches</h1>
-          <p className="text-center">Anziboo's drug delivery patches utilize advanced biogel technology to provide controlled, sustained release of medications, improving patient compliance and treatment outcomes.</p>
+          <p className="text-center">Anziboo&apos;s drug delivery patches utilize advanced biogel technology to provide controlled, sustained release of medications, improving patient compliance and treatment outcomes.</p>
         </div>
       </div>
     </div>

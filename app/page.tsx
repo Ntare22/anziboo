@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import ProductsSection from "./components/ProductsSection";
@@ -7,6 +6,7 @@ import WhoWeAreSection from "./components/WhoWeAreSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
 import PartnersSection from "./components/PartnersSection";
+import HappyClients from "./components/HappyClients";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
         <PartnersSection />
         <ProductsSection />
         <ProjectSection />
+        <HappyClients />
         <WhoWeAreSection />
         <ContactSection />
         <FooterSection />
