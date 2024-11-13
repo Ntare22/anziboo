@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Fasika from '@/app/assets/Fasika.png'
+import Fasika from '@/app/assets/fasika.png'
 import Joe from '@/app/assets/joe.png'
 import Dr from '@/app/assets/dr.png'
 import Sales from '@/app/assets/sales.png'
